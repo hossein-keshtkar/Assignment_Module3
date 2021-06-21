@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/****** HEADER ********/
+#header-nav {
+  background-color: #221e1e;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  position: relative;
+  margin: 30px;
+  padding: 0px;
+  top: -20px;
+}
+.navbar-brand h1 {
+  position: absolute;
+  font-family: 'Lora', serif;
+  color: #bbff00;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 2px 1px 3px rgb(206, 205, 205);
+  font-style: italic;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: left;
+  margin-top: -50px;
+}
+.navbar-header button.navbar-toggle:hover {
+  background-color: #9cc42f;
+}
+#nav-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: #222 5px 2px 10px;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #9fd33f;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+/****** End of HEADER ********/
+
+/****** Main Content ********/
+#header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+#main-content {
+  width: 100%;
+}
+#home-tiles {
+  margin-bottom: 25px;
+}
+#chicken-text, #beef-text, #sushi-text {
+  background-color: #ffffff;
+  margin: 15px;
+  position: relative;
+  border-radius: 5px;
+  padding: 15px;
+  color:black;
+}
+h4{
+  text-align: center;
+  color:black;
+  font-weight: bold;
+}
+h4:hover {
+  text-decoration: none;
+}
